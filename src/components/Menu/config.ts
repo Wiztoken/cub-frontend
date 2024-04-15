@@ -14,10 +14,6 @@ const config: MenuEntry[] = [
         label: 'Exchange',
         href: 'https://pancakeswap.finance/swap?outputCurrency=0x50d809c74e0b8e49e7b4c65bb3109abe3ff4c1c1',
       },
-      {
-        label: 'Liquidity',
-        href: 'https://pancakeswap.finance/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x50d809c74e0b8e49e7b4c65bb3109abe3ff4c1c1',
-      },
     ],
   },
   {
@@ -26,7 +22,7 @@ const config: MenuEntry[] = [
     href: '/farms',
   },
   {
-    label: 'Dens',
+    label: 'Magic Pools',
     icon: 'PoolIcon',
     href: '/dens',
   },
@@ -39,16 +35,7 @@ const config: MenuEntry[] = [
       color: 'warning',
     },
   },
-  {
-    label: 'Wrap HBD',
-    icon: 'DollarIcon',
-    href: "https://wleo.io/hbd-bsc/",
-  },
-  {
-    label: 'Wrap HIVE',
-    icon: 'HiveIcon',
-    href: "https://wleo.io/hive-bsc/",
-  },
+
   {
     label: 'PolyCUB',
     icon: 'PawIcon',
@@ -58,11 +45,7 @@ const config: MenuEntry[] = [
       color: 'warning',
     },
   },
-  {
-    label: 'IDO',
-    icon: 'IfoIcon',
-    href: '/ido',
-  },
+
   {
     label: 'Info',
     icon: 'InfoIcon',
@@ -94,21 +77,7 @@ const config: MenuEntry[] = [
     icon: 'TicketIcon',
     href: 'https://docs.cubdefi.com/',
   },
-  {
-    label: 'Roadmap',
-    icon: 'MoreIcon',
-    href: 'https://docs.cubdefi.com/roadmap',
-  },
-  {
-    label: "Tokenized Blogging",
-    icon: "TokenizeIcon",
-    href: "https://leofinance.io/",
-  },
-  {
-    label: "Blog",
-    icon: "BlogIcon",
-    href: "https://leofinance.io/@leofinance",
-  },
+
   {
     label: 'CertiK Audit',
     icon: 'AuditIcon',
